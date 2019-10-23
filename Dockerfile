@@ -7,4 +7,5 @@ RUN apt-get -q update && \
 
 RUN python -m pip -q -q -q install \
     awscli \
-    boto3
+    boto3 \
+    requests
